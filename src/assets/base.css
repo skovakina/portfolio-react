@@ -1,0 +1,31 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+:root {
+  --color-main: #24292f;
+  --color-white: #fff;
+  --color-white-shade: #eeeeee;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  color: var(--color-main);
+  line-height: 1.6;
+  font-family: Figtree, Arial, sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 12px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:link,
+a:visited {
+  color: var(--color-main);
+}

@@ -1,0 +1,148 @@
+.project__list {
+  padding: 20px 20px 40px;
+  margin-top: 66px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.project-item {
+  display: grid;
+  grid-template-columns: 1fr 40% 15%;
+}
+
+.project-item__image {
+  width: 100%;
+  object-fit: fill;
+  border-radius: 8px;
+  border: 1px solid #c7c7c7;
+}
+
+.project-item__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.project-item__title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.project-item__tech-list {
+  display: flex;
+  gap: 10px;
+}
+
+.project-item__tech-item {
+  color: #fff;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 400;
+  display: flex;
+  padding: 4px 6px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #2b2b2b;
+}
+
+.project-item__about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.project-item__description {
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.project-item__links {
+  display: flex;
+  gap: 20px;
+}
+
+.project-item__read-more {
+  width: 100px;
+}
+
+.project__list-enter {
+  opacity: 0;
+}
+.project__list-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.project__list-exit {
+  opacity: 1;
+}
+.project__list-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+@media screen and (max-width: 500px) {
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    box-shadow: 0px -20px 20px rgba(148, 148, 207, 0.2);
+  }
+
+  .project__list {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .project-item__image {
+    width: 100%;
+    object-fit: fill;
+    border-radius: 0;
+    border: none;
+  }
+
+  .project-item__body {
+    padding: 20px;
+    position: relative;
+    gap: 10px;
+  }
+
+  .project-item__links {
+    padding-top: 6px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .project-item__link-online {
+    display: flex;
+    width: 88px;
+    height: 40px;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #dfdfdf;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .project-item__date {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+  }
+}

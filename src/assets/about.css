@@ -1,0 +1,53 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding-top: 20px;
+}
+
+.about__photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: url(/assets/images/photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: red; */
+}
+
+.about__header {
+  font-family: Figtree;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about__description {
+  color: #2b2b2b;
+  text-align: justify;
+  font-family: Figtree;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 500px) {
+  .header__about {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    gap: 16px;
+    height: 100vh;
+    background-color: var(--color-white);
+    padding: 30px 10px 30px 16px;
+    margin-top: 40px;
+  }
+  .about {
+    z-index: 5;
+    padding: 0;
+  }
+
+  .about__description {
+    text-align: left;
+  }
+}

@@ -1,0 +1,32 @@
+.project-view {
+  padding: 20px 0;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.project-view__title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.project-view__description {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.project-view__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-view__item-text {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.project-view__item-icon {
+  fill: var(--color-main);
+}

@@ -1,0 +1,28 @@
+.button {
+  max-width: 150px;
+  cursor: pointer;
+  display: flex;
+
+  height: 30px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 30px;
+  background: #eeeeee;
+
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background: #cccccc;
+}
+
+.button_active {
+  background: #24292f !important;
+  color: #fff !important;
+}

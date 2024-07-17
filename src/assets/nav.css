@@ -1,0 +1,114 @@
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.nav__list {
+  justify-content: space-between;
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.nav__link {
+  display: block;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  border: none;
+  transition: all 0.3s;
+  background-size: contain;
+}
+
+.nav__link_email {
+  background-image: url(/assets/images/email-default.png);
+}
+
+.nav__link_email:hover {
+  background-image: url(/assets/images/email-hover.png);
+}
+
+.nav__link_github {
+  background-image: url(/assets/images/github-default.png);
+}
+
+.nav__link_github:hover {
+  background-image: url(/assets/images/github-hover.png);
+}
+.nav__link_linkedin {
+  background-image: url(/assets/images/linkedin-default.png);
+}
+
+.nav__link_linkedin:hover {
+  background-image: url(/assets/images/linkedin-hover.png);
+}
+.nav__list-item_grow {
+  flex-grow: 1;
+}
+
+.nav__button {
+  cursor: pointer;
+  display: flex;
+  flex-grow: 1;
+  height: 48px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 30px;
+  background: #24292f;
+
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.nav__button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1300px) {
+  .nav {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+  }
+
+  .nav__list {
+    padding-top: 0px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  .nav__icon {
+    visibility: visible;
+    position: absolute;
+  }
+  .nav__button span {
+    display: none;
+  }
+
+  .nav__button {
+    flex-grow: 1;
+    min-width: 48px;
+    max-width: 100%;
+    height: 48px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav__link {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav__button {
+    height: 40px;
+    padding: 6px 6px;
+    gap: 8px;
+  }
+}
