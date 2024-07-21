@@ -75,21 +75,6 @@
   width: 100px;
 }
 
-.project__list-enter {
-  opacity: 0;
-}
-.project__list-enter-active {
-  opacity: 1;
-  transition: opacity 500ms;
-}
-.project__list-exit {
-  opacity: 1;
-}
-.project__list-exit-active {
-  opacity: 0;
-  transition: opacity 500ms;
-}
-
 @media screen and (max-width: 500px) {
   .project-item {
     display: flex;

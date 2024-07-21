@@ -8,30 +8,27 @@ const data = [
     tech: ['JavaScript', 'HTML/CSS', 'Figma'],
     github: null,
     deploy: null,
-    figma:
-      'https://www.figma.com/design/LDxQFxckymwEPwPx6ZjUiU/Untitled?node-id=0-1&t=i4bQFrbK0qMGQ2o8-1',
+    figma: 'https://www.figma.com/design/LDxQFxckymwEPwPx6ZjUiU/Untitled?node-id=0-1&t=i4bQFrbK0qMGQ2o8-1',
     id: 'wit',
     imgUrl: '../assets/images/wit.png',
     component: 'Wit',
     role: 'Web Designer',
-    category: 'Design'
+    category: 'Design',
   },
   {
     title: 'Busy Day',
     date: 'Feb 2024',
-    description:
-      '🥇 1st place in Code Jam! Cozy to-do list inspired by Notion design. Cooked in a few days by the team of aspiring engineers',
+    description: '🥇 1st place in Code Jam! Cozy to-do list inspired by Notion design. Cooked in a few days by the team of aspiring engineers',
     type: 'Web Application',
     tech: ['JavaScript', 'HTML/CSS', 'Figma'],
     github: 'https://github.com/skovakina/spring-to-do',
     deploy: 'https://skovakina.github.io/spring-to-do/',
-    figma:
-      'https://www.figma.com/design/snKqGDLVf5l6BLb7EPI1m4/Busy-Day-To-Do?node-id=0-1&t=RH4glBJ2akB7osTE-1',
+    figma: 'https://www.figma.com/design/snKqGDLVf5l6BLb7EPI1m4/Busy-Day-To-Do?node-id=0-1&t=RH4glBJ2akB7osTE-1',
     id: 'busy-day',
     imgUrl: '../assets/images/busy-day.jpg',
     component: 'BusyDay',
     role: 'Lead Engineer / Product designer',
-    category: 'Development'
+    category: 'Development',
   },
   {
     title: 'News Explorer',
@@ -47,7 +44,7 @@ const data = [
     imgUrl: '../assets/images/news-explorer.jpg',
     component: 'NewsExplore',
     role: 'Fullstack Engineer',
-    category: 'Development'
+    category: 'Development',
   },
   {
     title: 'Merry Mailers',
@@ -58,13 +55,12 @@ const data = [
     tech: ['JavaScript', 'HTML/CSS', 'BEM'],
     github: 'https://github.com/skovakina/jingle-bells-jam',
     deploy: 'https://skovakina.github.io/jingle-bells-jam/',
-    figma:
-      'https://www.figma.com/file/SpY6DFB6h4iw6Zu3EgVn7Z/Merry-Codemas?type=design&node-id=0%3A1&mode=design&t=GhuLCnpvvt5qYUBL-1',
-    id: 'busy-day',
+    figma: 'https://www.figma.com/file/SpY6DFB6h4iw6Zu3EgVn7Z/Merry-Codemas?type=design&node-id=0%3A1&mode=design&t=GhuLCnpvvt5qYUBL-1',
+    id: 'merry-mailers',
     imgUrl: '../assets/images/merry-mailers.jpg',
     component: 'Merry Mailers',
     role: 'Frontend Engineer',
-    category: 'Development'
+    category: 'Development',
   },
   {
     title: 'Around the US',
@@ -76,17 +72,16 @@ const data = [
     github: 'https://github.com/skovakina/aroundtheus',
     deploy: 'https://skovakina.github.io/aroundtheus/',
     figma: null,
-    id: 'busy-day',
+    id: 'around-the-us',
     imgUrl: '../assets/images/around-the-us.jpg',
     component: 'AroundTheUS',
     role: 'Fullstack Engineer',
-    category: 'Development'
+    category: 'Development',
   },
   {
     title: 'Music App',
     date: 'May 2022',
-    description:
-      'Project based on the latest features of Vue 3 including Composition API, Vue Router, authentication and more.',
+    description: 'Project based on the latest features of Vue 3 including Composition API, Vue Router, authentication and more.',
     type: 'Web Application',
     tech: ['Vue.js', 'Tailwind', 'Composition API', 'Vite'],
     github: 'https://github.com/skovakina/Vue-music-app',
@@ -96,13 +91,12 @@ const data = [
     imgUrl: '../assets/images/music-app.jpg',
     component: 'AroundTheUS',
     role: 'Fullstack Engineer',
-    category: 'Development'
+    category: 'Development',
   },
   {
     title: 'Forkify',
     date: 'Dec 2021',
-    description:
-      'Modern application for searching for a recipe or an ingredient. Explore plenty of recipes of pizza!',
+    description: 'Modern application for searching for a recipe or an ingredient. Explore plenty of recipes of pizza!',
     type: 'Web Application',
     tech: ['JavaScript', 'Parcel', 'Babel'],
     github: 'https://github.com/skovakina/JS-forkify',
@@ -112,13 +106,12 @@ const data = [
     imgUrl: '../assets/images/forkify.jpg',
     component: 'Forkify',
     role: 'Frontend Engineer',
-    category: 'Development'
+    category: 'Development',
   },
   {
     title: 'Mupty',
     date: 'Dec 2021',
-    description:
-      'Simple workout tracker for fans of running and cycling with geolocation API, maps and markers and saving data.',
+    description: 'Simple workout tracker for fans of running and cycling with geolocation API, maps and markers and saving data.',
     type: 'Web Application',
     tech: ['JavaScript', 'API', 'Leaflet Library'],
     github: 'https://github.com/skovakina/JS-mapty',
@@ -128,13 +121,12 @@ const data = [
     imgUrl: '../assets/images/mapty.jpg',
     component: 'Mupty',
     role: 'Frontend Engineer',
-    category: 'Development'
+    category: 'Development',
   },
   {
     title: 'Trello',
     date: 'April 2022',
-    description:
-      'Inspired by an all-in-one booking app, featuring the full power of flexbox layout',
+    description: 'Inspired by an all-in-one booking app, featuring the full power of flexbox layout',
     type: 'Web Application',
     tech: ['SASS', 'Flexbox'],
     github: 'https://github.com/skovakina/trello',
@@ -144,7 +136,7 @@ const data = [
     imgUrl: '../assets/images/trello.jpg',
     component: 'Trello',
     role: 'Frontend Engineer',
-    category: 'Development'
+    category: 'Development',
   },
   {
     title: 'Career Aid',
@@ -154,12 +146,12 @@ const data = [
     tech: ['Use Research', 'UX Design', 'Persona'],
     github: null,
     deploy: null,
-    id: 'trillo',
+    id: 'career-aid',
     imgUrl: '../assets/images/career-aid.jpg',
     component: 'CareeAid',
     role: 'UX Designer',
-    category: 'Design'
-  }
-]
+    category: 'Design',
+  },
+];
 
-export default data
+export default data;
